@@ -115,6 +115,10 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+
+
 h1,
 h2,
 h3,
@@ -762,6 +766,8 @@ select {
 textarea {
     min-height: 25rem;
     max-height: 25rem;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 input[type="email"]:focus,
