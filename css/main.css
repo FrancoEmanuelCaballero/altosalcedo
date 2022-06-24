@@ -1389,6 +1389,10 @@ input::-moz-focus-inner {
     margin-top: 0;
 }
 
+.masterplan-title{
+ border-bottom: 1px solid #cecece
+}
+
 .display-2--light {
     color: #ffffff;
 }
@@ -2563,6 +2567,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-item {
     margin-bottom: 0.9rem;
+    
 }
 
 .services-list .service-item h3 {
@@ -2915,13 +2920,17 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-clients {
-    padding-top: 16.2rem;
-    padding-bottom: 16.8rem;
+    padding-top: 4.2rem;
+    padding-bottom: 7.8rem;
     background-color: #e6e6e6;
     color: #757575;
     position: relative;
 }
 
+.masterplan{
+ width: 100%;
+ max-width: none;
+}
 
 /* ------------------------------------------------------------------- 
  * ## slider
